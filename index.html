@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1" />
+    <meta name="theme-color" content="" />
+    <title>Cipher</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <h1 class="app-name">Cipher</h1>
+      <form class="form">
+        <label class="label">Enter your message here 📝</label>
+        <input
+          type="search"
+          placeholder="Enter message"
+          autofocus
+          id="message"
+        />
+
+        <label class="label">Enter secret code 🔞</label>
+        <input id="code" type="search" placeholder="Enter code" autofocus />
+        <label class="label">Your encrypted code 💻 </label>
+        <input
+          id="encriptedMessage"
+          type="search"
+          placeholder="Encrypted message"
+          autofocus
+        />
+        <div class="action-buttons">
+          <button class="button" id="encrypt" type="submit">Encrypt</button>
+          <button class="button" id="decrypt" type="submit">Decrypt</button>
+          <button class="button" id="copy" type="submit">Copy</button>
+        </div>
+      </form>
+      <button class="button" id="switch">Switch</button>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
